@@ -9,6 +9,7 @@ export class OneComponent implements OnInit {
   value=true;
   namefor=['1','2','3'];
   colorswitch="green";
+  array=[{value:3},{value:4},{value:3},{value:4},{value:3}];
   constructor() { }
 
   ngOnInit(): void {

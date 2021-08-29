@@ -32,4 +32,9 @@
     <br>
         <input type="text" [ngStyle]="{'background-color':'blue'}" placeholder="using ngStyle">
         <br>
+        <br>
+        <div *ngFor="let a of array">
+            <input type="text" value="{{a.value}}" [ngClass]="a.value==3 ? 'blocka' : 'blockb' ">
+        </div>
+
     
