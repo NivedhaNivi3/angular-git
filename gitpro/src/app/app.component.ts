@@ -11,6 +11,7 @@ export class AppComponent {
    visible=false;
    visi=true;
    event="";
+   toway=" ";
    show(){
      console.log('successfully done');
    }
