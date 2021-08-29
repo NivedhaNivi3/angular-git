@@ -10,10 +10,14 @@ export class AppComponent {
    nivi="Interpolation";
    visible=false;
    visi=true;
+   event="";
    show(){
      console.log('successfully done');
    }
    show1(){
      console.log('this is propety binding')
+   }
+   function(){
+     this.event="Eventbinding";
    }
 }
