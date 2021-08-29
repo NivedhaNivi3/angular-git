@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'gitpro';
    nivi="Interpolation";
+   visible=false;
+   show(){
+     console.log('successfully done');
+   }
 }
