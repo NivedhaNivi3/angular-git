@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OneComponent implements OnInit {
   value=true;
+  namefor=['1','2','3']
   constructor() { }
 
   ngOnInit(): void {
