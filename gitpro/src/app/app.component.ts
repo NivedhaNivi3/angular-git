@@ -9,7 +9,11 @@ export class AppComponent {
   title = 'gitpro';
    nivi="Interpolation";
    visible=false;
+   visi=true;
    show(){
      console.log('successfully done');
+   }
+   show1(){
+     console.log('this is propety binding')
    }
 }
