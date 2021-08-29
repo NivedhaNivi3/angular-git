@@ -7,3 +7,10 @@
     <h2>this is else block</h2>
 </ng-template>
 <br>
+<div *ngIf="true ; then thenblock ; else elseblock"></div>
+    <ng-template #thenblock>
+        <h1>then(if) block is excuted</h1>
+    </ng-template>
+    <ng-template #elseblock>
+<h1> else block is excuted</h1>
+    </ng-template>
