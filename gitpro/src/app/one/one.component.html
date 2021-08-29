@@ -22,3 +22,10 @@
         </h1>
         <br>
         <h1>Switch case</h1>
+        <div [ngSwitch]="colorswitch">
+            <div *ngSwitchCase="'red'"><h2>Matching color is Red</h2></div>
+            <div *ngSwitcCase="'blue'"><h2>Matching color is Blue</h2></div>
+            <div *ngSwitchCase="'green'"><h2>Matching color is green</h2></div>
+            <div *ngSwitchDefault="'No match'"><h2>Not Matching</h2></div>
+    <br>
+    
